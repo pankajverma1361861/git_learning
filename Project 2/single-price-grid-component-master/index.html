@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+
+    <title>Frontend Mentor | Single Price Grid Component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        * {
+            background-color: hsl(218, 22%, 67%);
+            margin: 0;
+            padding: 0;
+            font-family: 'Karla', sans-serif;
+        }
+        
+        body {
+            display: flex;
+            justify-content: center;
+            position: relative;
+        }
+        
+        .container {
+            display: flex;
+            margin: 75px 0;
+            width: 600px;
+            height: 400px;
+            flex-direction: column;
+        }
+        
+        #header-text {
+            background-color: white;
+            width: 600px;
+            height: 50%;
+            ;
+        }
+        
+        #header-text h1 {
+            color: hsl(179, 62%, 43%);
+            background-color: white;
+            padding: 20px 0 0 35px;
+        }
+        
+        #header-text p {
+            background-color: white;
+            width: 500px;
+            padding: 20px 0 0 35px;
+        }
+        
+        .color {
+            background-color: white;
+            color: hsl(71, 73%, 54%);
+            font-size: 20px;
+        }
+        
+        .bottm {
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .rows {
+            height: 200px;
+            width: 50%;
+        }
+        
+        .right {
+            background-color: hsl(179, 62%, 43%);
+            color: white;
+            position: relative;
+        }
+        
+        .right h4,
+        span,
+        big,
+        small {
+            background-color: hsl(179, 62%, 43%);
+            padding: 10px 0 10px 35px;
+        }
+        
+        .par {
+            background-color: hsl(179, 62%, 43%);
+            padding: 10px 0 10px 35px;
+        }
+        
+        .right big {
+            font-size: 30px;
+        }
+        
+        .right button {
+            width: 200px;
+            height: 35px;
+            margin: 15px 0 0 35px;
+            color: white;
+            border-radius: 10px;
+            background-color: hsl(71, 73%, 54%);
+        }
+        
+        .left {
+            background-color: hsl(179, 74%, 34%);
+            color: white;
+        }
+        
+        .left h4,
+        p {
+            background-color: hsl(179, 74%, 34%);
+            padding: 10px 0 10px 35px;
+        }
+        
+        .left p {
+            width: 70%;
+            line-height: 23px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="header-text">
+            <h1>Join our community</h1>
+            <p class="color">30-day, hassle-free money back guarantee</p>
+            <p>Gain access to our full library of tutorials along with expert code reviews. Perfect for any developers who are serious about honing their skills.</p>
+        </div>
+        <div class="bottm">
+            <div class="rows right">
+                <h4>Monthly Subscription</h4>
+                <big>&dollar;29</big><small>per month</small>
+                <p class="par">Full access for less than &dollar;1 a day</p>
+                <button>Sign Up</button>
+            </div>
+            <div class="rows left">
+                <h4>Why Us</h4>
+                <p>Tutorials by industry experts Peer &amp; expert code review Coding exercises Access to our GitHub repos Community forum Flashcard decks New videos every week</p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
